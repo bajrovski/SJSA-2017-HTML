@@ -1,0 +1,48 @@
+body {
+	background-color: aqua	;
+}
+div {
+	color: yellow;
+}
+h1 {
+	color: yellow;
+	font-size: 400%;
+	font-family: Century, serif;
+	width: 500px;
+}
+.pinkhello {
+	color: pink;
+	font-size: 150%;
+}
+
+.pinkhello:hover {
+	color: gold;
+}
+
+.dj-marte {
+	width: 420px;
+	height: 450px;
+	background-color: red;
+
+}
+
+.testl {
+	font-size: 40px;
+	text-decoration: none;
+	text-transform: uppercase;
+	color: purple;
+	display: block;
+	background-color: blue;
+	width: 400px;
+	height: 250px;
+}
+.test1:hover {
+	background-color: gold;
+	color: black;
+}
+
+table, th, td {
+	border: 3px solid black;
+	background-color: gold;
+	border-collapse: collapse;
+}
