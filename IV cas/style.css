@@ -1,0 +1,57 @@
+body {
+	padding: 0;
+	margin: 0;
+
+}
+.main {
+	width: 1024px;
+	height: 1140px;
+	margin: auto;
+	border: 1px solid black;
+	padding-bottom: : 20px;
+}
+
+.transparent-box {
+	width: 994px;
+	height: 150px;
+	background-color: rgba(0,0,0,0.5);
+	padding: 10px 0 0 30px;
+	position: absolute;
+	bottom: 0
+}
+
+.transparent-box h1 {
+	color: #fff;
+	font-weight: bold;
+	font-family: Arial;
+	font-weight: 400;
+	text-transform: uppercase;
+	line-height: 50px;
+	float: left;
+}
+
+.img-holder {
+	width: 1024px;
+	height: 682px;
+	position: relative;
+}
+
+.paragraf {
+	margin: 0;
+	padding: 20px 15px;
+	color: #fff;
+	font-family: Arial;
+	line-height: 30px;
+	font-size: 18px;
+	background-color: blue;
+}
+
+.tekst {
+	font-weight: bold;
+	font-family: Arial;
+	margin: 20px 0 20px 30px;
+	line-height: 24px;
+}
+
+ul {
+	list-style-type: hebrew;
