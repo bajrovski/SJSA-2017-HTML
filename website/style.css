@@ -1,7 +1,6 @@
 body {
 	margin: 0;
 	padding: 0;
-	background-color: lightgrey;
 }
 
 .main {
@@ -98,7 +97,6 @@ header {
 .main-list {
 	width: 940px;
 	height: 435px;
-	background-color: green;
 	margin: 0;
 	padding: 0;
 }
@@ -212,4 +210,114 @@ ul.main-list {
 header.list-header {
 	height: 40px;
 
+}
+
+ul.social-list {
+	width: 940px;
+	height: 340px;
+	float: left;
+	margin: 0;
+	padding: 0;
+}
+
+ul.social-list li {
+	width: 300px;
+	height: 320px;
+	float: left;
+	margin: 0 20px 0 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+ul.social-list li:last-child {
+	margin: 0;
+
+}
+
+ul.social-list li h1 {
+	margin: 0;
+	padding: 0;
+	font-size: 18px;
+	font-family: Georgia;
+	color: #444444;
+	border-bottom: 1px dashed #444444;
+	padding: 0 0 7px 0;
+
+}
+
+ul.social-list li p {
+	margin: 10px 0;
+	padding: 0;
+	font-size: 12px;
+	font-family: Helvetica;
+}
+
+ul.social {
+	width: 300px; 
+	height: 50px;
+	margin: 0;
+	padding: 0;
+}
+
+ul.social li {
+	width: 50px;
+	height: 50px;
+	float: left;
+	margin: 0 12px 0 0;
+}
+
+ul.social img {
+	width: 50px;
+	height: 50px;
+}
+
+ul.social-list li h2 {
+	font-size: 18px;
+	font-family: Georgia;
+	color: #444444;
+	border-bottom: 1px dashed;
+	margin-top: 55px;
+	font-weight: bold;
+}
+
+ul.social-list input {
+	width: 280px;
+	height: 20px;
+	margin-top: 20px;
+	border-radius: 7px;
+	padding-left: 10px;
+}
+
+.kopce {
+	width: 160px !important;
+	height: 30px !important;
+	float:left;
+	background-color: #4e85be;
+	border: 1px solid #004a80;
+	display: block;
+	margin-top: 11px;
+	color: #fff;
+	text-align:left;
+}
+
+.contact {
+	width: 300px;
+	height: 320px;
+	padding: 10px 0 0 0;
+}
+
+.contact textarea {
+	height: 100px;
+	width: 280px;
+	border-radius: 7px;
+	margin-top: 0 0 10px 0;
+	padding: 10px;
+	font-family: Georgia;
+	font-size: 15px;
+}
+
+.contact input {
+	width: 280px;
+	height: 33px;
+	margin: 0 0 10px 0;
 }
